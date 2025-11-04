@@ -1,0 +1,14 @@
+/*css pour la page d'accueil*/
+body{
+    background-image: url(../img/Fond-accueil.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
