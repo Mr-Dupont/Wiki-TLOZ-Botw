@@ -1,6 +1,5 @@
-/*css pour la page d'accueil*/
+/*css general*/
 body{
-    background-image: url(../img/Fond-accueil.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -8,7 +7,13 @@ body{
     margin: 0;
     padding: 0;
 }
+/*css pour la page d'accueil*/
+.accueil{
+    background-image: url(../img/Fond-accueil.png);
+}
 .logo{
-    
+    display: block;
     margin: 0 auto;
+    height: 40vh;
+    width: 57vh;
 }
