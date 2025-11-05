@@ -40,7 +40,7 @@ div img{
 }
 /* liens de la page d'accueil */
 .rudania img:hover{
-    transition: 2s;
+    transition: 2s; 
     transform: scale(1.1);
     background-image: url(../img/rudania.png);
     background-position: center;
