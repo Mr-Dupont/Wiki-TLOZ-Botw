@@ -11,9 +11,66 @@ body{
 .accueil{
     background-image: url(../img/Fond-accueil.png);
 }
+/* logo page d'acceuil */
 .logo{
     display: block;
     margin: 0 auto;
-    height: 40vh;
-    width: 57vh;
+    height: 20rem;
+    width: 25rem;
+}
+article{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 9rem;
+} 
+.image{   
+    border-right: 2px solid #f4f4f4;
+    border-left: 2px solid #f4f4f4;
+    border-radius: 0rem 2rem ;
+    padding: 1rem 4rem;
+}
+.image1{   
+    border-right: 2px solid #f4f4f4;
+    border-left: 2px solid #f4f4f4;
+    border-radius: 0rem 2rem ;
+    padding: 1rem 5rem;
+}
+div img{
+    height: 70px;
+}
+/* liens de la page d'accueil */
+.rudania img:hover{
+    transition: 2s;
+    transform: scale(1.1);
+    background-image: url(../img/rudania.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ruta img:hover{
+    transition: 2s;
+    transform: scale(1.1);
+    background-image: url(../img/ruta.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.medoh img:hover{
+    transition: 2s;
+    transform: scale(1.1);
+    background-image: url(../img/medoh.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.naboris img:hover{
+    transition: 2s;
+    transform: scale(1.1);
+    background-image: url(../img/naboris.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
