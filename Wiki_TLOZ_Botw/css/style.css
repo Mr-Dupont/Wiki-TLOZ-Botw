@@ -74,3 +74,19 @@ div img{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.fond-arme{
+    background-image: url(../img/fond-sheikah.jpg);
+
+}
+.header-arme{
+    background-image: url(../img/fond-sheikah-modified.jpg);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.weapons{
+    margin: 0 auto;
+}
+.ms-icon{
+    margin-left: 0;
+}
