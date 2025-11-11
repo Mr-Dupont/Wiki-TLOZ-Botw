@@ -90,3 +90,25 @@ div img{
 .ms-icon{
     margin-left: 0;
 }
+.description-arme{
+    display: flex;
+    text-align: center;
+    margin: 4rem;
+    padding: 2rem 3rem;
+    border-radius: 0rem 15rem 15rem 0rem;
+    font-size: 1rem;
+    color: aliceblue;
+    background-image: url(../img/fond-sheikah\ \(1\).jpg);
+}
+.txtArme{
+    margin: 0 auto;
+    background-image: url(../img/fond-sheikah.jpg);
+    border-radius: 5rem;
+    padding: 2rem;
+}
+.imgArme{
+    margin: 0;
+     border-radius: 5rem;
+    padding: 2rem;
+    background-image: url(../img/fond-sheikah.jpg);
+}
