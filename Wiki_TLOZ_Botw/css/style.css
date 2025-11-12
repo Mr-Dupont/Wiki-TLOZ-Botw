@@ -14,22 +14,32 @@ a{
     color: white;
     text-decoration: none;
 }
-/*css pour la page d'accueil*/
+
+
+/*DÉBUT PAGE D'ACCEUIL*/
+
+/* fond */
 .accueil{
     background-image: url(../img/img-Principal/Fond-accueil.png);
 }
-/* logo page d'acceuil */
+
 .logo{
     display: block;
     margin: 0 auto;
     height: 20rem;
     width: 25rem;
 }
+
+/* flexbox navigation */
+
 .lien-accueil{
     display: flex;
     justify-content: space-evenly;
     line-height: 9rem;
 } 
+
+/* bordure navigation */
+
 .image{   
     border-right: 2px solid #f4f4f4;
     border-left: 2px solid #f4f4f4;
@@ -42,10 +52,14 @@ a{
     border-radius: 0rem 2rem ;
     padding: 1rem 5rem;
 }
+
+/* taille image navigation */
+
 div img{
     height: 70px;
 }
-/* liens de la page d'accueil */
+
+/* image des liens et les transitions */
 .rudania img:hover{
     transition: 2s; 
     transform: scale(1.1);
@@ -81,60 +95,46 @@ div img{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
+/* FIN DE LA PAGE D'ACCUEIL */
+
+
+
+
+/* DÉBUT PAGE D'ARMES */
+
+
+/* fond body */
+
 .fond-arme{
     background-image: url(../img/img-Principal/fond-sheikah.jpg);
 }
+
+/* header */
+
+/* fond header */
+
 .header-armes{
     background-image: url(../img/img-Principal/fond-sheikah-modified.jpg);
 }
+
+/* taille icon header  */
+
+.weapons-icon img{
+    height: 8rem;
+}
+
+/*  icon position avec flexbox */
+
 .weapons-icon{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.weapons-icon img{
-    height: 8rem;
-}
-.main-armes{
-    display: flex;
-}
-.etiquette-armes{
-    display: flex;
-    flex: 3;
-    flex-direction: column;
-    justify-content: start;
-}
-.lore{
-    display: flex;
-    flex: 1;
-    background-image: url(../img/img-Principal/fond-sheikah2.jpg);
-    padding: 1rem 2rem;
-    margin: 2rem 2rem 2rem 0rem;
-    border-left: 5px solid rgba(82, 50, 4, 0.993);
-    border-radius: 10px;
-}
-.description-arme{
-    display: flex;
-    gap: 5rem;
-    max-width: 1000px;
-    margin: 2rem;
-    padding: 1rem 2rem;
-    border-radius: 0rem 15rem 15rem 0rem;
-    font-size: 1rem;
-    background-image: url(../img/img-Principal/fond-sheikahClaire.jpg);
-}
-.txtArme{
-    margin: 0 auto;
-    background-image: url(../img/img-Principal/fond-sheikah.jpg);
-    border-radius: 5rem;
-    padding: 2rem;
-}
-.imgArme{
-    margin: 0;
-    border-radius: 5rem;
-    padding: 2rem;
-    background-image: url(../img/img-Principal/fond-sheikah.jpg);
-}
+
+/* navigation */
+
 .nav-link{
     display: flex;
     justify-content: end;
@@ -145,6 +145,70 @@ div img{
     border:  1px solid black;
 }
 
+/* main */
+
+.main-armes{
+    display: flex;
+}
+
+/* flexbox des étiquettes (colonnes)*/
+
+.etiquette-armes{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: start;
+}
+
+/* flexbox du lore et les padding margin et la couleur */
+
+.lore{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-image: url(../img/img-Principal/fond-sheikah2.jpg);
+    padding: 1rem 2rem;
+    margin: 2rem 2rem 2rem 0rem;
+    border-left: 5px solid rgba(82, 50, 4, 0.993);
+    border-radius: 10px;
+    gap: 11rem;
+}
+
+/* intérieur des étiquettes */
+
+.description-arme{
+    display: flex;
+    gap: 5rem;
+    max-width: 1000px;
+    margin: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 0rem 15rem 15rem 0rem;
+    font-size: 1rem;
+    background-image: url(../img/img-Principal/fond-sheikahClaire.jpg);
+    border-left: 4px solid rgba(82, 50, 4, 0.993);
+}
+
+/* texte dans les étiquettes */
+
+.txtArme{
+    margin: 0 auto;
+    background-image: url(../img/img-Principal/fond-sheikah.jpg);
+    border-radius: 5rem;
+    padding: 2rem;
+}
+
+/* image dans les étiquettes */
+
+.imgArme{
+    margin: 0;
+    border-radius: 5rem;
+    padding: 2rem;
+    background-image: url(../img/img-Principal/fond-sheikah.jpg);
+}
+
+
+
+/* FIN DE LA PAGE D'ARMES */
 
 
 
@@ -155,6 +219,7 @@ div img{
 
 
 
+/* média queries */
 
 @font-face{
     font-family:The_Wild_Breath_of_Zelda;
