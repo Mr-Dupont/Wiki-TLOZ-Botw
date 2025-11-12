@@ -6,10 +6,17 @@ body{
     background-position: center;
     margin: 0;
     padding: 0;
+    color: white;
+    font-family:The_Wild_Breath_of_Zelda;
+
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 /*css pour la page d'accueil*/
 .accueil{
-    background-image: url(../img/Fond-accueil.png);
+    background-image: url(../img/img-Principal/Fond-accueil.png);
 }
 /* logo page d'acceuil */
 .logo{
@@ -18,7 +25,7 @@ body{
     height: 20rem;
     width: 25rem;
 }
-article{
+.lien-accueil{
     display: flex;
     justify-content: space-evenly;
     line-height: 9rem;
@@ -42,7 +49,7 @@ div img{
 .rudania img:hover{
     transition: 2s; 
     transform: scale(1.1);
-    background-image: url(../img/rudania.png);
+    background-image: url(../img/img-Principal/rudania.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -50,7 +57,7 @@ div img{
 .ruta img:hover{
     transition: 2s;
     transform: scale(1.1);
-    background-image: url(../img/ruta.png);
+    background-image: url(../img/img-Principal/ruta.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -59,7 +66,7 @@ div img{
 .medoh img:hover{
     transition: 2s;
     transform: scale(1.1);
-    background-image: url(../img/medoh.png);
+    background-image: url(../img/img-Principal/medoh.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -68,47 +75,88 @@ div img{
 .naboris img:hover{
     transition: 2s;
     transform: scale(1.1);
-    background-image: url(../img/naboris.png);
+    background-image: url(../img/img-Principal/naboris.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .fond-arme{
-    background-image: url(../img/fond-sheikah.jpg);
-
+    background-image: url(../img/img-Principal/fond-sheikah.jpg);
 }
-.header-arme{
-    background-image: url(../img/fond-sheikah-modified.jpg);
-    align-items: center;
+.header-armes{
+    background-image: url(../img/img-Principal/fond-sheikah-modified.jpg);
+}
+.weapons-icon{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
-.weapons{
-    margin: 0 auto;
+.weapons-icon img{
+    height: 8rem;
 }
-.ms-icon{
-    margin-left: 0;
+.main-armes{
+    display: flex;
+}
+.etiquette-armes{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: start;
+}
+.lore{
+    display: flex;
+    flex: 1;
+    background-image: url(../img/img-Principal/fond-sheikah2.jpg);
+    padding: 1rem 2rem;
+    margin: 2rem 2rem 2rem 0rem;
+    border-left: 5px solid rgba(82, 50, 4, 0.993);
+    border-radius: 10px;
 }
 .description-arme{
     display: flex;
-    text-align: center;
-    margin: 4rem;
-    padding: 2rem 3rem;
+    gap: 5rem;
+    max-width: 1000px;
+    margin: 2rem;
+    padding: 1rem 2rem;
     border-radius: 0rem 15rem 15rem 0rem;
     font-size: 1rem;
-    color: aliceblue;
-    background-image: url(../img/fond-sheikah\ \(1\).jpg);
+    background-image: url(../img/img-Principal/fond-sheikahClaire.jpg);
 }
 .txtArme{
     margin: 0 auto;
-    background-image: url(../img/fond-sheikah.jpg);
+    background-image: url(../img/img-Principal/fond-sheikah.jpg);
     border-radius: 5rem;
     padding: 2rem;
 }
 .imgArme{
     margin: 0;
-     border-radius: 5rem;
+    border-radius: 5rem;
     padding: 2rem;
-    background-image: url(../img/fond-sheikah.jpg);
+    background-image: url(../img/img-Principal/fond-sheikah.jpg);
+}
+.nav-link{
+    display: flex;
+    justify-content: end;
+}
+.nav-item{
+    background-image: url(../img/img-Principal/fond-sheikahClaire.jpg);
+    padding: 0.5rem 2rem;
+    border:  1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face{
+    font-family:The_Wild_Breath_of_Zelda;
+    src: url(../police-Perso/The_Wild_Breath_of_Zelda.otf);
 }
