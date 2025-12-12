@@ -3,7 +3,6 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    max-height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -14,7 +13,7 @@ body{
     font-family:The_Wild_Breath_of_Zelda;
 }
 header{
-    margin-bottom: auto;
+    /* margin-bottom: auto; */
 }
 a{
     color: white;
@@ -220,14 +219,55 @@ div img{
 
 /* DEBUT DE LA PAGE D'ARC */
 
-.body-arc{
-    background-image: url(../img/img-Arcs/link_arc.webp);
-    background-position: center;
+
+.main-arc{
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.decription-principal-arc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.decription-principal-arc img{
+    width: 200px;
+    height: 200px;
+}
+
+.bloc-principal{
+    display: flex;
+    gap: 20px;
+}
+.section-principal{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section-secondaire{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.section-secondaire article{
+    width: 300px;
 }
 
 
+.section-arc-legendaire{
+    display: flex;
+    gap: 30px;
+}
 
-
+.section-arc-legendaire article{
+    display: flex;
+    gap: 20px;
+}
 
 
 /* FIN DE LA PAGE D'ARC */
