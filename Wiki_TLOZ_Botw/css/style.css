@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-width: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -274,9 +275,86 @@ div img{
 
 
 
+
+/* DEBUT PAGE BOUCLIER */
+
+.main-bouclier{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.section-haut{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.first-section-haut{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.seconde-section-haut{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.section-milieu-globale{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.article-central{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-central img{
+    height: 140px;
+    width: 160px;
+}
+
+.section-bas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.first-section-bas{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.seconde-section-bas{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.main-bouclier section article{
+    max-width: 300px;
+}
+
+
+
+/* FIN DE LA PAGE BOUCLIER */
+
+
+
 /* média queries */
 
 @font-face{
     font-family:The_Wild_Breath_of_Zelda;
     src: url(../police-Perso/The_Wild_Breath_of_Zelda.otf);
 }
+
