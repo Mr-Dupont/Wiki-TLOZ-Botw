@@ -237,7 +237,9 @@ div img{
 }
 
 .bloc-principal{
+    margin-top: 20px;
     display: flex;
+    align-items: start;
     gap: 20px;
 }
 .section-principal{
@@ -267,11 +269,6 @@ div img{
     gap: 20px;
 }
 
-h1{
-    font-size: 4rem;
-}
-
-
 .box-arc-boko{
     background-image: url(../img/img-Principal/);
     margin: 10px;
@@ -292,19 +289,24 @@ h1{
     flex-direction: column;
     justify-content: baseline;
 }
+.h1-bow{
+    margin-top: auto;
+    margin-bottom: 20px;
+    font-size: 4rem;
+}
 aside{
     max-width: 300px;
-    margin-top: 30px;
+    margin-top: 20px;
     background-image: url(../img/img-Principal/fond-sheikah2.jpg) ;
     padding: 20px;
     border-radius: 10px;
     border-left: 4px solid rgba(82, 50, 4, 0.993);
     padding-bottom: auto;
 }
-aside h1{
-    display: flex;
-    justify-content: center;
+.h2-bow{
     font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 .box-img-arc{
     background-image: url(../img/img-Principal/fond-sheikah.jpg);
@@ -330,12 +332,14 @@ aside h1{
 .box-txt2{
     display: flex;
     align-items: center;
-    flex: 1;
+    font-size: large;
     background-image: url(../img/img-Principal/fond-sheikah-modified.jpg);
     padding: 15px;
     border-radius: 40px 0px 0px 0px;
     border-left: 5px solid rgba(82, 50, 4, 0.993);
     border-top: 5px solid rgba(82, 50, 4, 0.993);
+    margin-top: 50px;
+    margin-bottom: 75px;
 }
 .box-arc-legendaire{
     background-image: url(../img/img-Principal/fond-sheikahClaire.jpg);
@@ -381,8 +385,8 @@ aside h1{
 
 hr{
     background-color: darkgrey;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 /* FIN DE LA PAGE D'ARC */
 
